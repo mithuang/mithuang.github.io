@@ -96,8 +96,8 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
 }
 
-#header #logo h1 {
-  font-size: 36px;
+#header #logo h3 {
+  font-size: 12px;
   margin: 0;
   padding: 6px 0;
   line-height: 1;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-#header #logo h1 a, #header #logo h1 a:hover {
+#header #logo h3 a, #header #logo h3 a:hover {
   color: #fff;
 }
 
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  #header #logo h1 {
+  #header #logo h3 {
     font-size: 26px;
   }
   #header #logo img {
