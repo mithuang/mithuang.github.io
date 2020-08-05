@@ -929,7 +929,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .info i {
   font-size: 32px;
   color: #2dc997;
-  float: left;
+  float: none;
 }
 
 #contact .info p {
@@ -945,7 +945,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .social-links {
   padding-bottom: 20px;
-  padding-left: 40px;
+  text-align: center;
 }
 
 #contact .social-links a {
