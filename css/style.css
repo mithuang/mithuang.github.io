@@ -929,12 +929,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .info i {
   font-size: 32px;
   color: #2dc997;
-  float: none;
+  float: left;
 }
 
 #contact .info p {
   padding: 0 0 10px 50px;
-  margin-bottom: 20px;
   line-height: 22px;
   font-size: 14px;
 }
