@@ -489,8 +489,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-description {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   color: #999;
+  margin-bottom: 10px;
 }
 
 /* About Us Section
