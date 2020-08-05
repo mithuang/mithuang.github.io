@@ -936,6 +936,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
   line-height: 22px;
   font-size: 14px;
+  text-align: center;
 }
 
 #contact .info .email p {
