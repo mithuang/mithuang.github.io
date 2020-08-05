@@ -879,7 +879,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   line-height: 22px;
   font-size: 14px;
   text-align: center;
@@ -967,7 +967,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
   overflow: hidden;
   height: 260px;
-  /*background: url(../img/about-img2.jpg) center top no-repeat;*/
+  background: url(../img/about-img2.jpg) center top no-repeat;
   background-size: contain;
 }
 
