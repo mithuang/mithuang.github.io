@@ -967,7 +967,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
   overflow: hidden;
   height: 260px;
-  background: url(../img/about-img2.jpg) center top no-repeat;
+  /*background: url(../img/about-img2.jpg) center top no-repeat;*/
   background-size: contain;
 }
 
