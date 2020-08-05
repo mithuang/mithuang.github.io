@@ -964,11 +964,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .background {
+  margin-bottom: 15px;
+  overflow: hidden;
   height: 260px;
   background: url(../img/about-img2.jpg) center top no-repeat;
-  background-size: contain;
-  margin-bottom: 10px;
-  margin-top: 0px;
 }
 
 /*--------------------------------------------------------------
