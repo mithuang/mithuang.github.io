@@ -758,7 +758,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden !important;
   margin-bottom: 15px;
   transition: all 350ms ease;
-  transform: scale(1);
+  /*transform: scale(1);*/
   vertical-align: middle;
 }
 
