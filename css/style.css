@@ -759,6 +759,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
   transition: all 350ms ease;
   transform: scale(1);
+  vertical-align: middle;
 }
 
 #portfolio .portfolio-item a {
@@ -768,7 +769,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item img {
   position: relative;
-  vertical-align: middle;
   transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
