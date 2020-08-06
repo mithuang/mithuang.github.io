@@ -723,7 +723,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio #portfolio-wrapper {
   padding-right: 15px;
-  text-align: center;
 }
 
 #portfolio #portfolio-flters {
@@ -757,9 +756,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   height: 200px;
   overflow: hidden !important;
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
   transition: all 350ms ease;
   transform: scale(1);
+  float: none;
+  margin: 0 auto;
   /*vertical-align: middle;*/
 }
 
