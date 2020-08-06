@@ -723,7 +723,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio #portfolio-wrapper {
   padding-right: 15px;
-  vertical-align: middle;
 }
 
 #portfolio #portfolio-flters {
@@ -769,7 +768,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item img {
   position: relative;
-  top: 0;
+  vertical-align: middle;
   transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
