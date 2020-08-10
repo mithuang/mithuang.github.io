@@ -575,99 +575,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
 }
 
-/* Facts Section
---------------------------------*/
-#facts {
-  background: #f7f7f7;
-  padding: 80px 0 60px 0;
-}
-
-#facts .counters span {
-  font-size: 48px;
-  display: block;
-  color: #2dc997;
-}
-
-#facts .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-}
-
-/* Services Section
---------------------------------*/
-#services {
-  background: #fff;
-  background-size: cover;
-  padding: 80px 0 60px 0;
-}
-
-#services .box {
-  padding: 50px 20px;
-  margin-bottom: 50px;
-  text-align: center;
-  border: 1px solid #e6e6e6;
-  height: 200px;
-  position: relative;
-  background: #fafafa;
-}
-
-#services .icon {
-  position: absolute;
-  top: -36px;
-  left: calc(50% - 36px);
-  transition: 0.2s;
-  border-radius: 50%;
-  border: 6px solid #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  width: 72px;
-  height: 72px;
-  background: #2dc997;
-}
-
-#services .icon a {
-  display: inline-block;
-}
-
-#services .icon i {
-  color: #fff;
-  font-size: 24px;
-}
-
-#services .box:hover .icon {
-  background: #fff;
-  border: 2px solid #2dc997;
-}
-
-#services .box:hover .icon i {
-  color: #2dc997;
-}
-
-#services .box:hover .icon a {
-  color: #2dc997;
-}
-
-#services .title {
-  font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
-#services .title a {
-  color: #111;
-}
-
-#services .description {
-  font-size: 14px;
-  line-height: 24px;
-}
-
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
@@ -807,55 +714,48 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: -30px;
 }
 
-/* Team Section
+/* Microsoft Section
 --------------------------------*/
-#team {
+#microsoft {
   background: #fff;
-  padding: 80px 0 60px 0;
+  padding: 80px 0;
 }
 
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
+#microsoft .about-container .background {
+  min-height: 300px;
+  background: url(../img/about-img3.jpg) center top no-repeat;
+  background-size: contain;
+  margin-bottom: 10px;
 }
 
-#team .member .pic {
-  margin-bottom: 15px;
-  overflow: hidden;
-  height: 260px;
+#microsoft .about-container .content {
+  background: #fff;
 }
 
-#team .member .pic img {
-  max-width: 100%;
-}
-
-#team .member h4 {
+#microsoft .about-container .title {
+  color: #333;
   font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
+  font-size: 32px;
 }
 
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
+@media (max-width: 768px) {
+  #microsoft .about-container .title {
+    padding-top: 15px;
+  }
 }
 
-#team .member .social {
-  margin-top: 15px;
+#microsoft .about-container .subtitle {
+  color: #333;
+  font-weight: 350;
+  font-size: 12px;
 }
 
-#team .member .social a {
-  color: #b3b3b3;
+#microsoft .about-container p {
+  line-height: 26px;
 }
 
-#team .member .social a:hover {
-  color: #2dc997;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
+#microsoft .about-container p:last-child {
+  margin-bottom: 0;
 }
 
 /* Contact Section
