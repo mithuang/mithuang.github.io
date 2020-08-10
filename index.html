@@ -52,7 +52,7 @@
           <li><a href="#about">About</a></li>
           <li class="menu-has-children"><a href="#portfolio">Portfolio</a>
             <ul>
-              <li><a href="#">Microsoft</a></li>
+              <li><a href="#microsoft">Microsoft</a></li>
               <li><a href="#">Stryker</a></li>
               <li><a href="#">Huf North America</a></li>
               <li><a href="#">U of Michigan</a></li>
@@ -144,7 +144,7 @@
 
         <div class="row" id="portfolio-wrapper">
           <div class="col-lg-4 col-md-6 portfolio-item filter-swe">
-            <a href="">
+            <a href="#microsoft">
               <img src="img/portfolio/microsoft-logo.png" alt="">
               <div class="details">
                 <h4>Microsoft</h4>
@@ -206,25 +206,25 @@
           <div class="col-lg-12 content">
             <h2 class="title">Microsoft</h2>
             <h3 class="subtitle">Software Engineer Intern, 2019-2020</h3>
-            <p>During my time at Microsoft I worked as a Software Engineer Intern Microsoft on the Azure Cloud Hardware and Infrastructure Engineering (CHIE)
-               Firmware team. My team was responsible for developing and deploying the Windows Cloud Server system firmware (aka the low-level 
+            <p>During my time at Microsoft I worked as a Software Engineer Intern on the Azure Cloud Hardware and Infrastructure Engineering (CHIE)
+               Firmware team. My team was responsible for developing and deploying the Windows Cloud Server system firmware (i.e. the low-level 
                software that initializes and controls the server hardware during bootup and runtime).</p>
           </div>
         </div>
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-1 order-2">
-            <h3 class="title">SELinator</h3>
-            <p>One key feature in our firmware is the system event log (SEL), which maintains a record of all hardware-related events and errors. 
+            <h2 class="subheading">SELinator</h2>
+            <p>One key feature in our firmware implementation is the system event log (SEL), which maintains a record of all hardware-related events and errors. 
               This telemetry comes in handy when a server goes down and our engineers need to diagnose the root cause of the failure. 
               The SEL is stored as a stream of raw bytes, and prior to my arrival at Microsoft, CHIE engineers would have to manually decode the SEL 
               by referencing the appropriate platform specification, which was a tedious process.</p> 
-            <p>My primary project in the summer of 2019 was to implement a SEL parsing tool (creatively titled "SELinator") that automated the decoding and filtering 
+            <p>My primary project in the summer of 2019 was to implement a platform-agnostic SEL parsing tool (creatively titled "SELinator") that automated the decoding and filtering 
               of raw SEL data in order to help streamline the redeployment of out-for-repair servers. Once I completed the bare-bones offline console application, 
               I took the project to the next level of accessibility by hosting SELinator in Azure, designing an interactive bot user interface for the app, 
               and integrating it into Microsoft Teams.</p>
-            <p>I can tell that the SELinator has truly made an impact because when I came back to Microsoft a year later in 2020, there was still high demand for the 
-              tool across the entire Azure enterprise.</p>
+            <p>I can tell that SELinator has truly made an impact because when I came back to Microsoft a year later in 2020, 
+              employees across the entire Azure enterprise were using the tool for their day-to-day tasks.</p>
           </div>
 
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
