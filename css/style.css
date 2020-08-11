@@ -735,13 +735,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #microsoft .about-container .bottomBackground1 {
-  height: 100px;
+  max-height: 150px;
   background: url(../img/Microsoft/transition.png) center top no-repeat;
   background-size: contain;
 }
 
 #microsoft .about-container .bottomBackground2 {
-  height: 100px;
+  max-height: 150px;
   background: url(../img/Microsoft/selinator-schematic.png) center top no-repeat;
   background-size: contain;
 }
