@@ -718,7 +718,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #microsoft {
   background: #fff;
-  padding: 80px 0;
+  padding: 80px 0 50px 0;
 }
 
 #microsoft .about-container {
@@ -735,10 +735,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #microsoft .about-container .bottomBackground {
-  height: 300px;
+  height: 250px;
   background: url(../img/Microsoft/transition.png) center top no-repeat;
   background-size: contain;
-  margin-bottom: 10px;
 }
 
 #microsoft .about-container .content {
