@@ -728,16 +728,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #microsoft .about-container .background {
   min-height: 300px;
-  background: url(../img/Microsoft/selinator-schematic.png) center bottom no-repeat, url(../img/Microsoft/Obi.PNG) center top no-repeat;
-  background-size: 60%, 60%;
+  background: url(../img/Microsoft/Obi.PNG) center center no-repeat;
+  background-size: contain;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
-#microsoft .about-container .bottomBackground {
+#microsoft .about-container .bottomBackground1 {
   height: 200px;
-  margin-left: 15px;
-  background: url(../img/Microsoft/transition.png) left top no-repeat;
+  background: url(../img/Microsoft/transition.png) center top no-repeat;
+  background-size: contain;
+}
+
+#microsoft .about-container .bottomBackground2 {
+  height: 200px;
+  background: url(../img/Microsoft/selinator-schematic.png) center top no-repeat;
   background-size: contain;
 }
 
