@@ -736,7 +736,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #microsoft .about-container .bottomBackground {
   height: 200px;
-  margin-left: 20px;
+  margin-left: 15px;
   background: url(../img/Microsoft/transition.png) left top no-repeat;
   background-size: contain;
 }
