@@ -734,6 +734,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
+#microsoft .about-container .bottomBackground {
+  height: 300px;
+  background: url(../img/Microsoft/transition.png) center top no-repeat;
+  background-size: contain;
+  margin-bottom: 10px;
+}
+
 #microsoft .about-container .content {
   background: #fff;
 }
