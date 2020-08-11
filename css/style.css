@@ -728,8 +728,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #microsoft .about-container .background {
   min-height: 300px;
-  background: url(../img/Microsoft/selinator-schematic.png) center top no-repeat, url(../img/Microsoft/Obi.PNG) center bottom no-repeat;
-  background-size: contain;
+  background: url(../img/Microsoft/selinator-schematic.png) center bottom no-repeat, url(../img/Microsoft/Obi.PNG) center top no-repeat;
+  background-size: 50%, 50%;
   margin-bottom: 10px;
 }
 
