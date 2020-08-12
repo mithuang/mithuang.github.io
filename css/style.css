@@ -738,14 +738,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   min-height: 170px;
   background: url(../img/Microsoft/transition.png) center top no-repeat;
   background-size: contain;
-  margin-bottom: 20 px;
+  margin-bottom: 30 px;
 }
 
 #microsoft .about-container .bottomBackground2 {
   min-height: 170px;
   background: url(../img/Microsoft/selinator-schematic.png) center top no-repeat;
   background-size: contain;
-  margin-bottom: 20 px;
+  margin-bottom: 30 px;
 }
 
 #microsoft .about-container .content {
@@ -781,6 +781,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #microsoft .about-container p {
   line-height: 26px;
+  margin-bottom: 20px;
 }
 
 #microsoft .about-container p:last-child {
