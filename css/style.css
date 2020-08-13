@@ -788,6 +788,81 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+/* Stryker Section
+--------------------------------*/
+#stryker {
+  background: #fff;
+  padding: 80px 0 50px 0;
+}
+
+#stryker .about-container {
+  margin-bottom: 40px;
+
+}
+
+#stryker .about-container .background {
+  min-height: 300px;
+  background: url(../img/Stryker/sphere.png) center top no-repeat, url(../img/Stryker/architecture.png) center bottom no-repeat;
+  background-size: contain;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#stryker .about-container .bottomBackground1 {
+  min-height: 170px;
+  background: url(../img/Microsoft/transition.png) center top no-repeat;
+  background-size: contain;
+  margin-bottom: 15 px;
+}
+
+#stryker .about-container .bottomBackground2 {
+  min-height: 170px;
+  background: url(../img/Microsoft/selinator-schematic.png) center top no-repeat;
+  background-size: contain;
+  margin-bottom: 15 px;
+}
+
+#stryker .about-container .content {
+  background: #fff;
+}
+
+#stryker .about-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  #stryker .about-container .title {
+    padding-top: 15px;
+  }
+}
+
+#stryker .about-container .subtitle {
+  color: #333;
+  font-weight: 350;
+  font-size: 16px;
+}
+
+#stryker .about-container .subheading {
+  color: #333;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#stryker .about-container p {
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+#stryker .about-container p:last-child {
+  margin-bottom: 0;
+}
+
+
 /* Contact Section
 --------------------------------*/
 #contact {

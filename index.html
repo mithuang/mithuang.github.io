@@ -53,7 +53,7 @@
           <li class="menu-has-children"><a href="#portfolio">Portfolio</a>
             <ul>
               <li><a href="#microsoft">Microsoft</a></li>
-              <li><a href="#">Stryker</a></li>
+              <li><a href="#stryker">Stryker</a></li>
               <li><a href="#">Huf North America</a></li>
               <li><a href="#">U of Michigan</a></li>
               <li><a href="#">FIRST Robotics</a></li>
@@ -154,7 +154,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-swe">
-            <a href="">
+            <a href="#stryker">
               <img src="img/portfolio/stryker-logo.png" alt="">
               <div class="details">
                 <h4>Stryker</h4>
@@ -254,6 +254,68 @@
 
       </div>
     </section><!-- #microsoft -->
+
+    <!--==========================
+      Stryker Section
+    ============================-->
+    <section id="stryker">
+      <div class="container">
+        <div class="row about-container">
+          <div class="col-lg-12 content">
+            <h2 class="title">Stryker</h2>
+            <h3 class="subtitle">Software Engineer Intern, 2018</h3>
+            <p>At Stryker, I worked as a Software Engineer Intern on the Connected Care team. Connected Care is responsible for defining, developing, 
+              and maintaining Stryker's Internet of Things (IoT) platform. Right around the time I joined Stryker, IoT capabilities were just beginning to emerge in 
+              the medical device industry, and the Connected Care team was responsible for pioneering this innovation at Stryker. Our interoperability platfrom was built on the foundation 
+              of three types of device communication: Device to Device (D2D), Device to Hospital (D2H), and Device to Stryker (D2S). By enabling this vast network of 
+              connected medical devices, we opened up several new avenues for Stryker to accomplish its mission to make healthcare better. These avenues included 
+              the provision of SaaS features to help customers maximize the lifetime of their instruments and the collection of business intelligence data to support 
+              crucial decision-making within new product development teams.</p>
+          </div>
+        </div>
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-1">
+            <h2 class="subheading">POC App for Next-Gen Edge Platform</h2>
+            <p>One key feature in our firmware implementation is the system event log (SEL), which maintains a record of all hardware-related events and errors. 
+              This telemetry comes in handy when a node goes down and our engineers need to diagnose the root cause of the failure. 
+              The SEL is stored as a stream of raw bytes, and prior to my arrival at Microsoft, CHIE engineers would have to manually decode the SEL 
+              by referencing the appropriate platform specification, which was a tedious process.</p> 
+            <p>My project for the summer of 2019 was to implement a platform-agnostic SEL parsing tool (creatively titled "SELinator") that automated the decoding and filtering 
+              of raw SEL data in order to help streamline the redeployment of out-for-repair nodes. Once I completed the bare-bones offline console application, 
+              I took the project to the next level of accessibility by hosting SELinator in Azure, designing an interactive bot user interface for the app, 
+              and integrating it into Microsoft Teams.</p>
+            <p>I can tell that SELinator has truly made an impact because when I came back to Microsoft a year later in 2020, 
+              employees across the entire Azure enterprise were using the tool for their day-to-day tasks.</p>
+          </div>
+
+          <div class="col-lg-6 background order-2 wow fadeInRight"></div>
+        </div>
+        <div class="row about-container">
+          <div class="col-lg-8 bottomBackground1 order-lg-2 order-1 wow fadeInRight"></div>
+          <div class="col-lg-4 bottomBackground2 order-lg-1 order-2 wow fadeInRight"></div>
+        </div>
+        <div class="row about-container">
+          <div class="col-lg-12 content">
+            <h2 class="subheading">CPU Optimization for Power and Performance</h2>
+            <p>Many of Azure’s data centers are located in power-scarce regions of the world, and have a rack level power limit of 8.8 kW. 
+              These regions are called “small geos,” and it is crucial that power consumption per node is reduced in such regions in order to maximize the number of 
+              nodes per rack.</p>
+            <p>My project deliverables for the summer of 2020 consisted of three tasks. First I was responsible for implementing power reduction logic within the system firmware for 
+              three high-demand SKU's. Next, I was tasked with executing a series of power/performance benchmarking experiments on a test node in order to derive the 
+              optimal platform BIOS policies (e.g. active core count, turbo ratio limit) while operating under the reduced power budget. The overarching objective 
+              of this optimization was to maximize the platform BIOS policies while avoiding CPU throttling during high-intensity workloads. Finally, once all platform 
+              BIOS policies were fine-tuned, I was responsible for merging all the code changes into the master system firmware tree, and writing a suite of 
+              test cases for the validation team to run prior to deployment.</p> 
+            <p>Overall, this project introduced me to a completely different perspective of the CHIE Firmware team, as it gave me the opportunity to work 
+              on a feature that had significant cost benefits and directly impacted the Azure customer experience. All technical experience aside, due to 
+              COVID-19 and my 2020 internship with Microsoft being held virtually, I also learned firsthand how large tech corporations function remotely and 
+              how to overcome the variety of challenges that inevitably accompany the remote mode of operation.</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #stryker -->
 
     <!--==========================
       Contact Section
