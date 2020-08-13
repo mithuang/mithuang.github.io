@@ -801,7 +801,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #stryker .about-container .background {
-  min-height: 600px;
+  min-height: 500px;
   background: url(../img/Stryker/sphere.png) center top no-repeat, url(../img/Stryker/architecture.png) center bottom no-repeat;
   background-size: contain;
   margin-top: 30px;
