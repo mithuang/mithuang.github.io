@@ -718,7 +718,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #microsoft {
   background: #fff;
-  padding: 80px 0 50px 0;
+  padding: 20px 0 50px 0;
 }
 
 #microsoft .about-container {
@@ -792,7 +792,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #stryker {
   background: #fff;
-  padding: 80px 0 50px 0;
+  padding: 20px 0 50px 0;
 }
 
 #stryker .about-container {
@@ -806,20 +806,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: contain;
   margin-top: 30px;
   margin-bottom: 10px;
-}
-
-#stryker .about-container .bottomBackground1 {
-  min-height: 170px;
-  background: url(../img/Microsoft/transition.png) center top no-repeat;
-  background-size: contain;
-  margin-bottom: 15 px;
-}
-
-#stryker .about-container .bottomBackground2 {
-  min-height: 170px;
-  background: url(../img/Microsoft/selinator-schematic.png) center top no-repeat;
-  background-size: contain;
-  margin-bottom: 15 px;
 }
 
 #stryker .about-container .content {
@@ -859,6 +845,79 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #stryker .about-container p:last-child {
+  margin-bottom: 0;
+}
+
+/* Huf Section
+--------------------------------*/
+#huf {
+  background: #fff;
+  padding: 20px 0 50px 0;
+}
+
+#huf .about-container {
+  margin-bottom: 40px;
+
+}
+
+#huf .about-container .background {
+  min-height: 350px;
+  background: url(../img/Huf/handle-test-fixtures1.png) center top no-repeat;
+  background-size: contain;
+  margin-top: 20px;
+}
+
+#huf .about-container .background1 {
+  min-height: 250px;
+  background: url(../img/Huf/handle-test-fixtures2.png) center top no-repeat;
+  background-size: contain;
+  margin-top: 20px;
+}
+
+#huf .about-container .background2 {
+  min-height: 350px;
+  background: url(../img/Huf/fob-test-fixture.png) center top no-repeat;
+  background-size: contain;
+  margin-top: 20px;
+}
+
+#huf .about-container .content {
+  background: #fff;
+}
+
+#huf .about-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  #huf .about-container .title {
+    padding-top: 15px;
+  }
+}
+
+#huf .about-container .subtitle {
+  color: #333;
+  font-weight: 350;
+  font-size: 16px;
+}
+
+#huf .about-container .subheading {
+  color: #333;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#huf .about-container p {
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+#huf .about-container p:last-child {
   margin-bottom: 0;
 }
 
