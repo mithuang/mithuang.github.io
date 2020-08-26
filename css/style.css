@@ -884,6 +884,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 20px;
 }
 
+#huf .about-container .background3 {
+  min-height: 450px;
+  background: url(../img/Huf/bezel.png) center top no-repeat;
+  background-size: contain;
+  margin-top: 30px;
+}
+
 #huf .about-container .content {
   background: #fff;
 }
